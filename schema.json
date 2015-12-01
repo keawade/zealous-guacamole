@@ -1,22 +1,29 @@
 {
   "clothing": {
     "socks": [{
-
+      "color": "",
+      "heatRating": 0
     }],
     "pants": [{
-
+      "color": "",
+      "heatRating": 0
     }],
     "belt": [{
-
+      "color": "",
+      "heatRating": 0
     }],
     "shirt": [{
-
+      "color": "",
+      "heatRating": 0,
+      "layer": ""
     }],
     "blazer": [{
-
+      "color": "",
+      "heatRating": 0
     }],
     "jacket": [{
-
+      "color": "",
+      "heatRating": 0
     }]
   }
 }
