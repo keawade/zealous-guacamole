@@ -2,18 +2,36 @@
 <html>
   <head>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Zealous Guacamole</title>
+    <title>Generate | Zealous Guacamole</title>
     <link href="style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <div id='container'>
-      <h1>Zealous Guacamole</h1>
-      <h2>Outfit Generator</h2>
+      <div id='header'>
+        <h1>Zealous Guacamole</h1>
+        <h2><a href='index.html'>Generate</a> | <a href='add.html'>Add</a> | <a href='saved.html'>Saved</a></h2>
+      </div>
       <div id='wrapper'>
-
+        <h3>Generate outfit</h3>
+        <label>Weather
+          <select id='weather'>
+            <option value="cold">Cold</option>
+            <option value="mild">Mild</option>
+            <option value="hot">Hot</option>
+          </select>
+        </label>
+        <label>Fanciness
+          <select id='fanciness'>
+            <option value="formal">Formal</option>
+            <option value="classy">Classy</option>
+            <option value="casual">Casual</option>
+            <option value="shit">No shits given</option>
+            <option value="fuck">No fucks given</option> <!-- Random -->
+          </select>
+        </label>
       </div>
     </div>
 
-    <script src="main.js"></script>
-  </body>
+    <script src="scripts/generate.js"></script>
+    <body>
 </html>
